@@ -17,4 +17,13 @@
         android:layout_marginBottom="38dp"
         android:text="Order" />
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Orderbutton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="TextView" />
+
 </RelativeLayout>

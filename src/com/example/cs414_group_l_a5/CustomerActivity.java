@@ -1,9 +1,11 @@
 package com.example.cs414_group_l_a5;
-
+import model.*;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 
 public class CustomerActivity extends Activity {
 
@@ -11,6 +13,9 @@ public class CustomerActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_customer);
+//		ArrayAdapter<String> menuArray = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, );
+//		final AutoCompleteTextView textView = (AutoCompleteTextView) findViewById(R.id.textView1);
+//		textView.setAdapter(menuArray);
 	}
 
 	@Override
